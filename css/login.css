@@ -1,0 +1,215 @@
+@charset "UTF-8";
+html {
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+/*隐藏横向滚动，垂直滚动根据内容自适应（去除IE默认垂直滚动条）*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset,
+lengend, button, select, input, textarea, th, td {
+  /* 清除内外边距 */
+  margin: 0;
+  padding: 0; }
+
+body, button, input, select, textarea {
+  /* 设置默认字体 */
+  font-family: PingFang SC,Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,STHeiti,\\534E\6587\7EC6\9ED1,sans-serif; }
+
+h1 {
+  font-size: 18px; }
+
+h2 {
+  font-size: 16px; }
+
+h3 {
+  font-size: 14px; }
+
+h4, h5, h6 {
+  font-size: 100%; }
+
+ul, ol {
+  list-style: none; }
+
+/* 重置列表元素 */
+/* 重置文本格式元素  */
+a {
+  text-decoration: none;
+  color: #000; }
+
+q:before, q:after {
+  content: ''; }
+
+/* 重置表单元素 */
+legend {
+  color: #000; }
+
+fieldset, img {
+  border: none; }
+
+button, input, select, textarea {
+  font-size: 100%;
+  /* 使得表单元素在 ie 下能继承字体大小 */ }
+
+/* 重置表格元素 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* 重置 hr */
+hr {
+  border: none;
+  height: 1px; }
+
+.topBox {
+  width: 100%;
+  height: 550px;
+  background: url(../images/t0118feb0c6cd63e5ba.jpg) no-repeat;
+  background-size: 100% 700px; }
+
+.topBox .login-top {
+  width: 1210px;
+  height: 700px;
+  position: relative;
+  margin: 0 auto; }
+
+.topBox .login-top .img1 {
+  position: absolute;
+  left: 0px;
+  top: 50px;
+  width: 150px;
+  height: 57px; }
+
+.topBox .login-top .img2 {
+  width: 600px;
+  height: 550px; }
+
+/*右侧登录框*/
+.login-top .login-top-right {
+  width: 300px;
+  height: 380px;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  padding: 20px 30px;
+  background: white;
+  border-radius: 5px; }
+
+.login-top-right .login-select {
+  margin: 20px 0 20px 0; }
+
+.login-top-right .login-select .span1 {
+  font-size: 20px;
+  margin: 0 15px 0 30px;
+  font-size: 20px; }
+
+.login-top-right .login-select .span2 {
+  font-size: 20px;
+  margin: 0 30px 0 15px;
+  font-size: 20px;
+  color: black; }
+
+.login-top-right .login-select .span3 {
+  border-right: 1px solid #cbc7c7; }
+
+.login-top-right .login-select .aaa {
+  color: #36b447;
+  border-bottom: 1px solid #36b447; }
+
+/*input登录*/
+.login-top-right .phoneBox {
+  display: none; }
+
+.login-top-right input {
+  width: 290px;
+  height: 44px;
+  line-height: 44px;
+  border: 1px solid #cbc7c7;
+  margin: 10px 0px;
+  text-indent: 10px; }
+
+.login-button input {
+  box-sizing: content-box;
+  text-align: center;
+  background: #36b447;
+  color: white;
+  font-size: 20px; }
+
+.login-top-right .phoneBox .passwordBox {
+  width: 290px;
+  height: 44px;
+  line-height: 44px;
+  border: 1px solid #cbc7c7;
+  margin: 10px 0px; }
+
+.login-top-right .phoneBox .passwordBox input {
+  text-indent: 10px;
+  width: 205px;
+  height: 44px;
+  border: 0;
+  margin: 0px;
+  float: left; }
+
+.login-top-right .phoneBox .passwordBox span {
+  width: 85px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  font-size: 12px;
+  display: inline-block;
+  background-color: #d6d9d9;
+  float: right; }
+
+.login-top-right .phoneBox .passwordBox span a {
+  color: #36b447; }
+
+.guto-register {
+  overflow: hidden; }
+
+.guto-register span a {
+  color: #6f6f6f;
+  font-size: 14px; }
+
+.guto-register .s1 {
+  float: left; }
+
+.guto-register .s2 {
+  float: right; }
+
+.other-login {
+  border-bottom: 1px solid #e3e3e3;
+  text-align: center;
+  font-size: 14px;
+  margin: 20px 0px;
+  color: #999;
+  line-height: 1px; }
+
+.other-login span {
+  padding: 0 5px;
+  background: #fff; }
+
+.roundBox {
+  display: flex;
+  justify-content: space-around; }
+
+.roundBox div {
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  border-radius: 50%;
+  border: 1px solid #e3e3e3; }
+
+/*bottomBox*/
+.bottomBox .login-bottom {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-around; }
+
+.bottomBox .pBox {
+  width: 1210px;
+  text-align: center;
+  margin: 20px auto 30px auto;
+  font-size: 14px;
+  color: #999999; }
+
+.bottomBox .pBox p {
+  padding-bottom: 4px; }

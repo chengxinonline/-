@@ -1,0 +1,190 @@
+@charset "UTF-8";
+html {
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+/*隐藏横向滚动，垂直滚动根据内容自适应（去除IE默认垂直滚动条）*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset,
+lengend, button, select, input, textarea, th, td {
+  /* 清除内外边距 */
+  margin: 0;
+  padding: 0; }
+
+body, button, input, select, textarea {
+  /* 设置默认字体 */
+  font-family: PingFang SC,Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,STHeiti,\\534E\6587\7EC6\9ED1,sans-serif; }
+
+h1 {
+  font-size: 18px; }
+
+h2 {
+  font-size: 16px; }
+
+h3 {
+  font-size: 14px; }
+
+h4, h5, h6 {
+  font-size: 100%; }
+
+ul, ol {
+  list-style: none; }
+
+/* 重置列表元素 */
+/* 重置文本格式元素  */
+a {
+  text-decoration: none;
+  color: #000; }
+
+q:before, q:after {
+  content: ''; }
+
+/* 重置表单元素 */
+legend {
+  color: #000; }
+
+fieldset, img {
+  border: none; }
+
+button, input, select, textarea {
+  font-size: 100%;
+  /* 使得表单元素在 ie 下能继承字体大小 */ }
+
+/* 重置表格元素 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* 重置 hr */
+hr {
+  border: none;
+  height: 1px; }
+
+/*headerBox*/
+body {
+  background: #f5f5f5; }
+
+.headerBox {
+  width: 100%;
+  height: 100%;
+  background: #e8e8e8; }
+
+.headerBox .header {
+  width: 710px;
+  height: 65px;
+  margin: 0 auto;
+  line-height: 65px; }
+
+.headerBox .header img {
+  float: left;
+  margin-top: 10px;
+  margin-right: 30px; }
+
+.headerBox .header .p1 {
+  float: left; }
+
+.headerBox .header .p1 a {
+  color: black;
+  font-size: 20px;
+  border-left: 1px solid #929292;
+  padding: 5px 12px; }
+
+.headerBox .header .p2 {
+  float: right; }
+
+.headerBox .header .p2 a {
+  color: black;
+  font-size: 16px; }
+
+/*centerBox*/
+.centerBox {
+  width: 100%;
+  margin-top: 70px; }
+
+.centerBox .center {
+  width: 700px;
+  height: 545px;
+  margin: 0 auto;
+  background: #fff; }
+
+.centerBox .center .center-top {
+  height: 66px;
+  line-height: 66px;
+  border-bottom: 1px solid #e8e8e8;
+  text-align: center;
+  margin-bottom: 50px; }
+
+.centerBox .center input {
+  width: 380px;
+  height: 45px;
+  border: 1px solid #e8e8e8;
+  line-height: 45px;
+  margin: 18px 160px;
+  padding-left: 8px; }
+
+.centerBox .center .codeBox {
+  margin: 18px 160px;
+  width: 380px;
+  height: 45px; }
+
+.centerBox .center .codeBox .inp1 {
+  width: 255px;
+  margin: 0; }
+
+.centerBox .center .codeBox span {
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  line-height: 40px;
+  color: blue;
+  float: right;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  background: url(../images/timg.jpg); }
+
+.centerBox .center .inp3 {
+  margin-top: 50px;
+  background: #22ac69;
+  text-align: center;
+  line-height: 45px;
+  color: white;
+  font-size: 16px; }
+
+.centerBox .center p .inp2 {
+  margin: 0px;
+  margin-left: 160px;
+  width: 16px;
+  height: 16px; }
+
+.centerBox .center p a {
+  color: #22ac69; }
+
+.centerBox .center .user-p {
+  margin-left: 200px;
+  font-size: 12px;
+  color: red; }
+
+/*footerBox*/
+.footerBox {
+  width: 100%; }
+
+.footerBox .footer {
+  width: 700px;
+  height: 150px;
+  margin: 0 auto; }
+
+.footerBox .footer p {
+  width: 700px;
+  text-align: center;
+  margin: 2px;
+  font-size: 14px; }
+
+.footerBox .footer .p1 {
+  font-size: 16px;
+  margin: 38px 0 25px 0; }
+
+.footerBox .footer .p1 span {
+  padding: 2px 20px; }
+
+.footerBox .footer .p1 .span1 {
+  border-right: 1px solid #e8e8e8; }
